@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Variáveis simples úteis p/ componentes (shadcn/ui costuma usar radius) */
+:root {
+  --radius: 0.5rem;
+}
+
+/* Opcional: suavizar renderização de fontes */
+html, body, #root {
+  height: 100%;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
